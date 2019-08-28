@@ -146,15 +146,7 @@ class TestInheritance{
 		               
 		System.out.println("\t\tENTER STUDENT DETAILS");
 		System.out.println("\t\t---------------------");
-		/*System.out.print("Enter the name     : ");
-		name = input.nextLine();
-		System.out.print("Enter aadhaar      : ");
-		aadhaar = input.nextInt();
-		input.nextLine();
-		System.out.print("Enter the address  : ");
-		address = input.nextLine();
-		System.out.print("Enter the gender   : ");
-		gender = input.nextLine().charAt(0);*/
+		
 		p = getPerson();
 		name = p.getName();
 		address = p.getAddress();
@@ -174,16 +166,7 @@ class TestInheritance{
 		
                 System.out.println("\t\tENTER FACULTY DETAILS");
                 System.out.println("\t\t---------------------");		
-		/*System.out.print("Enter the name     : ");
-		name = input.nextLine();
-		System.out.print("Enter aadhaar      : ");
-		aadhaar = input.nextInt();
-		input.nextLine();
-		System.out.print("Enter the address  : ");
-		address = input.nextLine();
-		System.out.print("Enter the gender   : ");
-		gender = input.nextLine().charAt(0);*/
-
+		
 		p = getPerson();
 		name = p.getName();
 		aadhaar = p.getAadhaar();
