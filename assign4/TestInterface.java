@@ -1,3 +1,5 @@
+//WITH INTERFACE
+
 import java.util.*;
 interface Shape
 {
